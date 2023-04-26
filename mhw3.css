@@ -1,0 +1,245 @@
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color:rgb(29, 92, 146);
+   font-family: "FF Mark W05",Arial,sans-serif;
+   height :80px;
+   font-size: 25px; 
+}
+a{
+    background-color: goldenrod;
+    border-radius: 100px;
+    padding: 5px 15px;
+font-family: "FF Mark W05",Arial,sans-serif;
+color: white;
+text-shadow: 2px 2px 4px black;
+text-decoration: none;
+
+
+}
+
+body{
+    margin: 0px;
+   
+}
+header {
+ border-top: 0px;
+display: flex;
+height: 500px;
+background-image: url(images/immagine2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+align-items: center;
+justify-content: center;
+position: relative;
+background-position: center;
+z-index: -2;
+
+}
+#overlay {
+    background-color:
+      rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.titolo {
+font-size: 80px ; 
+font-family: "Teko",sans-serif;
+color: goldenrod;
+text-shadow: 2px 2px 4px black;
+max-width: 780px;
+text-align: center;
+
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.profilo{
+    margin-top: -50px;
+    border-radius: 100%;
+    background-image: url(images/profilo.webp);
+    background-repeat: no-repeat;
+    height :100px;
+    width: 100px;
+    background-size: cover;
+    justify-content: center;
+    border: 4px solid goldenrod;
+    
+
+}
+#id_utente{
+font-family: Avanta Garde,Arial, Helvetica, sans-serif;
+font-size: 30px;
+text-align: center;
+color: rgb(29, 92, 146);
+text-shadow: 1px 1px 2px ;
+
+
+
+}
+.flex-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+
+
+.contenuti{
+    width: 66.67%;
+    margin-top: 60px;
+    margin-bottom: 120px;
+
+    
+}
+.testo_articolo{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+}
+
+.numero{
+
+    position: relative;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    color:  rgb(29, 92, 146); 
+    left: -60px
+    
+}
+
+.titolo_articolo{
+
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
+    position: relative;
+    left: -40px;
+}
+
+.immagine_articolo{
+
+    display: flex;
+    align-content: center;
+    
+}
+.definizione{
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#foto{
+    width: 100%;
+
+}
+ body{ 
+   background-color: whitesmoke;
+ }
+footer{
+    margin-top: 50px;
+    display: flex;
+    height: 100px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(29, 92, 146);
+        font-family: "FF Mark W05",Arial,sans-serif;
+        color: goldenrod;
+        font-size: 25px;
+        text-shadow: 2px 2px 4px black;
+        text-align: center;
+        
+      
+}
+
+@media(max-width:768px){
+    a{font-size: 20px;}
+
+    .titolo{
+        font-size: 50px;
+    }
+    .profilo{
+        height: 70px;
+        width: 70px;
+        
+    }
+    #id_utente{
+        font-size: 25px;
+    }
+    .numero{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .titolo_articolo{
+        font-size: 30px; 
+        margin-left: -10px;   
+    }
+    .testo_articolo{
+        font-size: 20px;
+    }
+    .articolo{
+        width:60%;
+    }
+
+
+    
+        
+
+    
+}
+
+/*mhw3*/
+#song span{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#song img{
+    width: 50%;
+    height: 50%;
+  
+}
+
+
+
+#champions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  #champions  #song {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #ADC, #music {
+    font-family: Avanta Garde,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(29, 92, 146);
+    text-align: center;
+  }
+  #champions img{
+    margin-bottom: 10px;
+  }
+  #song a{
+    margin-top: 15px;
+  }
+  
+    
